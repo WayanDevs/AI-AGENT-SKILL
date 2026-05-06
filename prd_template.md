@@ -1,54 +1,84 @@
+
 # 📋 PROJECT PRD: [Project Name]
 
-@version: 1.0
-@status: draft/final
-@priority: p1
-@tech_stack: [e.g., Flutter Desktop / GNOME GJS]
+**@version**: 1.0
 
----
+**@status**: Draft/Final
+
+**@priority**: P1
+
+**@tech_stack**: [e.g., Flutter Desktop / GNOME GJS]
+
+----------
 
 ## 🎯 1. EXECUTIVE SUMMARY
-**Goal**: [Jelaskan dalam 1 kalimat apa yang ingin dicapai aplikasi ini].
-**Audience**: [Siapa penggunanya? e.g., Ubuntu 26.04 Power Users].
-**Value**: [Kenapa aplikasi ini dibuat? e.g., Low-latency system monitoring].
 
----
+-   **Goal**: [Describe what this application aims to achieve in one sentence].
+    
+-   **Audience**: [Who are the users? e.g., Ubuntu 26.04 Power Users].
+    
+-   **Value**: [Why was this application created? e.g., Low-latency system monitoring].
+    
+
+----------
 
 ## 🛠 2. CORE SPECIFICATIONS (The "What")
-*   **Feature A**: [Deskripsi singkat].
-    *   *Requirement*: [e.g., Harus update tiap 1 detik].
-*   **Feature B**: [Deskripsi singkat].
-    *   *Constraint*: [e.g., Tidak boleh menggunakan lebih dari 10MB RAM].
 
----
+-   **Feature A**: [Short description].
+    
+    -   _Requirement_: [e.g., Must update every 1 second].
+        
+-   **Feature B**: [Short description].
+    
+    -   _Constraint_: [e.g., Must not exceed 10MB RAM usage].
+        
+
+----------
 
 ## 🏗 3. TECHNICAL CONSTRAINTS (Layer 2 Constraints)
-*   **Workspace**: All source code MUST reside in `./src/`.
-*   **Security**: [e.g., No root access required].
-*   **Performance**: [e.g., Non-blocking asynchronous I/O only].
 
----
+-   **Workspace**: All source code MUST reside in `./src/`.
+    
+-   **Security**: [e.g., No root access required].
+    
+-   **Performance**: [e.g., Non-blocking asynchronous I/O only].
+    
+
+----------
 
 ## 🎨 4. UI/UX REQUIREMENTS
-*   **Layout**: [e.g., GNOME Top Bar / Sidebar / Floating Window].
-*   **Theming**: [e.g., Adwaita Dark / Custom CSS].
-*   **Interactions**: [e.g., Click to toggle, Right-click for settings].
 
----
+-   **Layout**: [e.g., GNOME Top Bar / Sidebar / Floating Window].
+    
+-   **Theming**: [e.g., Adwaita Dark / Custom CSS].
+    
+-   **Interactions**: [e.g., Click to toggle, Right-click for settings].
+    
+
+----------
 
 ## 💾 5. DATA & INTERFACES
-*   **Data Source**: [e.g., /proc/net/dev, Web API, Local Database].
-*   **External Dependencies**: [e.g., GLib, libnm, Flutter Provider].
 
----
+-   **Data Source**: [e.g., /proc/net/dev, Web API, Local Database].
+    
+-   **External Dependencies**: [e.g., GLib, libnm, Flutter Provider].
+    
+
+----------
 
 ## 🚀 6. DEFINITION OF DONE (DoD)
-- [ ] [Kriteria 1: e.g., Berhasil di-build tanpa error].
-- [ ] [Kriteria 2: e.g., Muncul di Top Bar dengan data real-time].
-- [ ] [Kriteria 3: e.g., Lolos validasi memory leak selama 1 jam].
 
----
+-   [ ] [Criterion 1: e.g., Successfully builds without errors].
+    
+-   [ ] [Criterion 2: e.g., Appears in the Top Bar with real-time data].
+    
+-   [ ] [Criterion 3: e.g., Passes memory leak validation for 1 hour].
+    
+
+----------
 
 ## ⚠️ 7. RISK & MITIGATION
-*   **Risk**: [e.g., GNOME Shell updates might break API].
-*   **Mitigation**: [e.g., Use stable Libadwaita components].
+
+-   **Risk**: [e.g., GNOME Shell updates might break API].
+    
+-   **Mitigation**: [e.g., Use stable Libadwaita components].

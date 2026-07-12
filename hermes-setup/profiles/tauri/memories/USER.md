@@ -1,0 +1,3 @@
+User prefers 'token-saver lite' mode for token savings.
+§
+User communicates in Bahasa Indonesia. Working on a Tauri v2 desktop app called "YibYib Downloader & Audio Converter" (project at /home/yan/Dev/YibYib-Video-Downloader). Expects clear "SELESAI" (done) status messages at the end of each fix cycle so they know work is complete. Frustrated by silent failures — wants visible error logs in the CLI terminal and progress indicators during operations. Running Ubuntu with GNOME desktop (Xwayland on :0), hostname yan-IdeaPad-Gaming-3-15ACH6.
